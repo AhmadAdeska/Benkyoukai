@@ -1,69 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Benkyoukai Bareng Desuka Kun</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(to bottom, #5e6b84, #2e2e38);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       text-align: center;
-      padding: 20px;
+      min-height: 100vh;
     }
-    .container {
-      max-width: 600px;
-      margin: auto;
-    }
-    img.profile {
+
+    .profile-img {
       width: 120px;
       height: 120px;
       border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 15px;
+      margin-top: 40px;
+      border: 4px solid white;
     }
+
     h1 {
-      font-size: 1.8em;
-      margin-bottom: 10px;
+      margin: 15px 0 5px;
+      font-size: 1.4em;
     }
-    h2 {
-      margin-top: 30px;
-      font-size: 1.2em;
-      color: #555;
+
+    p.tagline {
+      font-style: italic;
+      font-size: 0.9em;
+      margin-bottom: 25px;
     }
-    .link-button {
-      display: block;
-      background-color: #4CAF50;
+
+    .button {
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50px;
       color: white;
+      padding: 14px 25px;
+      margin: 10px;
+      width: 80%;
+      max-width: 400px;
       text-decoration: none;
-      padding: 14px 20px;
-      margin: 10px 0;
-      border-radius: 10px;
-      font-size: 1em;
-      transition: background-color 0.3s;
+      display: block;
+      transition: background 0.3s ease;
     }
-    .link-button:hover {
-      background-color: #45a049;
+
+    .button:hover {
+      background-color: rgba(255, 255, 255, 0.25);
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <img src="https://ugc.production.linktr.ee/74b97127-b07d-4d79-9a4d-798fd09b17a2_WhatsApp-Image-2025-04-09-at-15.04.34-b1ea5fe5.jpeg?io=true&size=avatar-v3_0" alt="Profile" class="profile" />
-    <h1>Benkyoukai Bareng Desuka Kun</h1>
+  <img class="profile-img" src="https://ugc.production.linktr.ee/74b97127-b07d-4d79-9a4d-798fd09b17a2_WhatsApp-Image-2025-04-09-at-15.04.34-b1ea5fe5.jpeg?io=true&size=avatar-v3_0" alt="Foto Profil">
 
-    <h2>📚 Edukasi</h2>
-    <a class="link-button" href="https://belajarjepang.com">Belajar Jepang</a>
-    <a class="link-button" href="https://ebookgratis.com">E-Book Gratis</a>
+  <h1>Benkyoukai Bareng Desuka Kun</h1>
+  <p class="tagline">"Tidak perlu terburu-buru, Tapi jangan berhenti"</p>
 
-    <h2>🎥 Video Konten</h2>
-    <a class="link-button" href="https://youtube.com/namakamu">YouTube Channel</a>
-    <a class="link-button" href="https://tiktok.com/@namakamu">TikTok</a>
+  <a class="button" href="https://chat.whatsapp.com/N5-link" target="_blank">Grup WhatsApp Benkyoukai JLPT N5</a>
+  <a class="button" href="https://chat.whatsapp.com/N4-link" target="_blank">Grup WhatsApp Benkyoukai JLPT N4</a>
+  <a class="button" href="https://chat.whatsapp.com/N3-link" target="_blank">Grup WhatsApp Benkyoukai JLPT N3</a>
 
-    <h2>🌐 Media Sosial</h2>
-    <a class="link-button" href="https://instagram.com/namakamu">Instagram</a>
-    <a class="link-button" href="https://twitter.com/namakamu">Twitter</a>
-  </div>
+  <a class="button" href="https://link.to/soal1-10" target="_blank">Benkyoukai soal 1 – 10 (JLPT N3 Desember 2025)</a>
+  <a class="button" href="https://link.to/soal11-20" target="_blank">Benkyoukai soal 11 – 20 (JLPT N3 Desember 2025)</a>
 </body>
 </html>
